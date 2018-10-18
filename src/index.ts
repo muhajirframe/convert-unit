@@ -7,10 +7,7 @@ const defaultConfig: Config = {
   divider: 1000
 };
 
-export default function getHumanReadableValue(
-  input: number,
-  config: Config = defaultConfig
-) {
+export function toClosestUnit(input: number, config: Config = defaultConfig) {
   if (input == 0) return "0 Byte";
   const i = Math.floor(Math.log(input) / Math.log(config.divider));
   const value = Math.round(input / Math.pow(config.divider, i));
