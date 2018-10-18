@@ -1,0 +1,19 @@
+{
+  "name": "unit-converter",
+  "version": "1.0.0",
+  "description": "A unit converter for javascript",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhajirframe/unit-converter.git"
+  },
+  "author": "Muhammad Muhajir <muhajirframe@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muhajirframe/unit-converter/issues"
+  },
+  "homepage": "https://github.com/muhajirframe/unit-converter#readme"
+}
