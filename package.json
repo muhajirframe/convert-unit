@@ -1,20 +1,20 @@
 {
-  "name": "unit-converter",
+  "name": "convert-unit",
   "version": "1.0.0",
   "description": "A unit converter for javascript",
-  "main": "./dist/index.js",
-  "types": "/dist/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/muhajirframe/unit-converter.git"
+    "url": "git+https://github.com/muhajirframe/convert-unit.git"
   },
   "author": "Muhammad Muhajir <muhajirframe@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/muhajirframe/unit-converter/issues"
+    "url": "https://github.com/muhajirframe/convert-unit/issues"
   },
-  "homepage": "https://github.com/muhajirframe/unit-converter#readme"
+  "homepage": "https://github.com/muhajirframe/convert-unit#readme"
 }
